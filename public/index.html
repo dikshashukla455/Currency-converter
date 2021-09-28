@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--=================BOXICONS===================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <title>Currency converter</title>
+</head>
+<body>
+    <div class="container">
+        <header><center><h2>Currency converter</h2></header></center>
+        <form action="">
+            <div class="amount">
+                <p>Enter your Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="dropdown-list">
+                <div class="from-list">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflags.io/us/flat/64.png" alt="flag">
+                        <select name="from-flags" id="">
+                        </select>
+                    </div>
+                </div>
+                <div class="exchange-icon"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+                <div class="to-list">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflags.io/in/flat/64.png" alt="flag">
+                        <select name="to-flags" id="">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-data">1 USD = 73.80 INR</div>
+            <button class="exchange-button">Get Your Exchange Rate</button>
+        </form>
+
+    </div>
+</body>
+<script src="js/country-list.js"></script>
+<script src="js/script.js"></script>
+</html>
